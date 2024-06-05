@@ -1,0 +1,38 @@
+.nav-link{
+  color: white;
+}
+
+.active{
+  background-color: white;
+  color: black;
+}
+
+.category-active{
+  background-color: lightblue;
+}
+
+
+
+.dropdown-menu::before{
+  content: '';
+  position: absolute;
+  top: 9px;
+  left: -7px;
+  height: 15px;
+  width: 15px;
+
+  background-color: white;
+  transform: rotate(45deg);
+}
+
+
+@media(max-width:600px){
+  .dropdown-menu::before{
+    content: '';
+    position: absolute;
+    top: -6.5px;
+    left: 138px;
+    height: 15px;
+    width: 15px;
+  }
+}

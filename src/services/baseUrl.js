@@ -1,0 +1,1 @@
+export const BASE_URL = "https://ardent-ecommerce-admin.onrender.com"
