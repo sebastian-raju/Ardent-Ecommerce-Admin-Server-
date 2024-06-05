@@ -190,7 +190,7 @@ function ProductEdit({setIsOpen, isOpen}) {
       </form>
     </div>) 
     : 
-    (<div className='mt-[140px] transition-margin duration-500 px-8'>
+    (<div className='mt-[140px] transition-margin duration-500 px-8 mb-[20px]'>
       <div className="breadcrumbs-container flex items-center space-x-4">
         <div className='text-[14px] text-gray-600 font-semibold'><i class="fa-solid fa-earth-asia fa-sm"></i></div>
         <div className='text-[14px] text-gray-600 font-semibold'>/</div>
